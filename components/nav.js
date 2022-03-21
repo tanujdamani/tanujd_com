@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 import styles from "../styles/Home.module.css";
 
 export default function Layout({ children }) {
@@ -5,10 +7,14 @@ export default function Layout({ children }) {
     <nav className={styles.nav}>
       <ul>
         <li>
-          <a href="/">Home</a>
+          <Link href="/">
+            <a>Home</a>
+          </Link>
         </li>
         <li>
-          <a href="/projects">Projects</a>
+          <Link href="/projects">
+            <a>Projects</a>
+          </Link>
         </li>
       </ul>
     </nav>

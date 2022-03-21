@@ -1,6 +1,6 @@
 import Head from "next/head";
-import Footer from "../components/footer";
-import Nav from "../components/nav";
+import Nav from "./nav";
+import Footer from "./footer";
 import Image from "next/image";
 
 import styles from "../styles/Home.module.css";
