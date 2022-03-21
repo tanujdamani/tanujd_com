@@ -5,7 +5,7 @@ import styles from "../styles/Home.module.css";
 export default function Index() {
   return (
     <>
-      <h1 className={styles.title}>👋 Hi! I'm Tanuj</h1>
+      <h1 className={styles.title}>👋 Hi! I&apos;m Tanuj</h1>
 
       <p className={styles.description}>
         Get started by editing <code className={styles.code}>pages/index.js</code>
